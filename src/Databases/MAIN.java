@@ -1,10 +1,12 @@
 package Databases;
 
+import Graphics.GRAPHICS_INTERFACE;
+import Graphics.MAIN_WINDOW;
 import java.sql.SQLException;
-
-public class Main {
+public class MAIN {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        DataBases dataBases = new DataBases();
-        System.out.println(dataBases.search("картина"));
+
+        new GRAPHICS_INTERFACE();
+
     }
 }
